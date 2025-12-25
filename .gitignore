@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+
+# Node
+node_modules/
+dist/
+build/
+.npm
+.eslintcache
+
+# Project Specific
+backend/db.json
+backend/thumbnails/
+backend/uploads/
+db.json
+thumbnails/
+uploads/
+*.jpg
+*.jpeg
+*.png
+!frontend/src/assets/*
+
+# Agentic / Logs
+.gemini/
+.agent/
+logs/
+*.log
+
+# Dev scripts
+inspect_photo.py
+test_recognition.py
+test_autorescan.py
+practical_task.py
+read_full_reqs.py
+read_reqs.py
+test_api.py
+thought_process.md
