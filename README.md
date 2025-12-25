@@ -2,8 +2,6 @@
 
 **AI-Powered Face Tagging for Schools. Private. Local. Fast.**
 
-> Built in a 48-hour Christmas Sprint by [Nikhil Karkare](https://www.linkedin.com/in/nikhilkarkare/) & Antigravity (AI Agent).
-
 ![Smart Needle Demo](smart_needle_demo.gif)
 
 **Smart Needle** is a 100% local, privacy-first face recognition engine that uses your laptop's power to index thousands of photos and tag students automatically.
