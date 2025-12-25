@@ -16,9 +16,23 @@
 }
 
 .sidebar h2 {
-  margin-bottom: 2rem;
+  margin: 0;
   color: #60a5fa;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+}
+
+.brand-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+
+.app-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
 }
 
 .sidebar nav button {

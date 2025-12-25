@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import "./App.css";
+import logo from "./assets/logo.png";
 
 function ImageWithOverlay({ src, faces }) {
   const imgRef = useRef(null);
@@ -419,7 +420,10 @@ function App() {
     <div className="app-layout">
       {/* Sidebar */}
       <div className="sidebar">
-        <h2>Smart Needle</h2>
+        <div className="brand-header">
+          <img src={logo} alt="Smart Needle Logo" className="app-logo" />
+          <h2>Smart Needle</h2>
+        </div>
         <nav>
           <button
             className={activeTab === "scan" ? "active" : ""}
